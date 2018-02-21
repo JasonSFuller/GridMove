@@ -12,5 +12,11 @@ to it, and I primarily use the bottom/middle of screen with the outside edges
 serving the old role of secondary monitors.  Since I couldn't find existing
 grids to suit me, I made my own.  Maybe you'll find them useful too.
 
+# Installation
 
+  * Install [AutoHotkey](https://autohotkey.com/download/)
+  * Install [GridMove](http://www.dcmembers.com/jgpaiva/) ([source](https://github.com/jgpaiva/GridMove))
+  * Copy all the `.grid` files to `C:\Program Files (x86)\GridMove\Grids`
+  * Right click GridMove (tray icon) > Restart
+  * Right click GridMove (tray icon) > Templates > jsf-v3
 
