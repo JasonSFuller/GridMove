@@ -1,0 +1,78 @@
+; grid: jsf-v2
+; author: Jason Fuller
+; generated: 2018-02-14
+; 
+; Overlapping/oversized grids for very large monitors (mine is 43" 4k)
+; + fix for Win10 shadow issues (7px in grid bottom/right)
+;
+;   +-------+-------+-------+
+;   |   4   |   5   |   6   |
+;   +-------+-------+-------+
+;   |       |       |       |
+;   |   1   |   2   |   3   |
+;   |       |       |       |
+;   +-------+-------+-------+
+
+[Groups]
+NumberOfGroups = 6
+
+[1]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 3 / 9
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 9 / 9
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 0 / 9
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 3 / 9
+GridTop       = [Monitor1Top] + [Monitor1Height] * 3 / 9
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 9 / 9 + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 0 / 9
+GridRight     = [Monitor1Left] + [Monitor1Width] * 4 / 9 + 7
+
+[2]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 3 / 9
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 9 / 9
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 3 / 9
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 6 / 9
+GridTop       = [Monitor1Top] + [Monitor1Height] * 3 / 9
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 9 / 9 + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 2 / 9
+GridRight     = [Monitor1Left] + [Monitor1Width] * 7 / 9 + 7
+
+[3]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 3 / 9
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 9 / 9
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 6 / 9
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 9 / 9
+GridTop       = [Monitor1Top] + [Monitor1Height] * 3 / 9
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 9 / 9 + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 5 / 9
+GridRight     = [Monitor1Left] + [Monitor1Width] * 9 / 9 + 7
+
+
+[4]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0 / 9
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 3 / 9
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 0 / 9
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 3 / 9
+GridTop       = [Monitor1Top] + [Monitor1Height] * 0 / 9
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 3 / 9 + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 0 / 9
+GridRight     = [Monitor1Left] + [Monitor1Width] * 4 / 9 + 7
+
+[5]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0 / 9
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 3 / 9
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 3 / 9
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 6 / 9
+GridTop       = [Monitor1Top] + [Monitor1Height] * 0 / 9
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 6 / 9 + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 2 / 9
+GridRight     = [Monitor1Left] + [Monitor1Width] * 7 / 9 + 7
+
+[6]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0 / 9
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 3 / 9
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 6 / 9
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 9 / 9
+GridTop       = [Monitor1Top] + [Monitor1Height] * 0 / 9
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 3 / 9 + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 5 / 9
+GridRight     = [Monitor1Left] + [Monitor1Width] * 9 / 9 + 7
