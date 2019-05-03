@@ -1,0 +1,46 @@
+; author: Jason Fuller
+; generated: 2017-12-22
+; 
+; Overlapping/oversized grids for very large monitors (mine is 43" 4k)
+; + fix for Win10 shadow issues (7px in grid bottom/right)
+;
+;   +---+---------------+---+
+;   |   |               |   |
+;   |   |               |   |
+;   | 1 |       2       | 3 |
+;   |   |               |   |
+;   |   |               |   |
+;   +---+---------------+---+
+
+[Groups]
+NumberOfGroups = 3
+
+[1]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 1
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 0
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * .2
+GridTop       = [Monitor1Top] + [Monitor1Height] * 0
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 1  + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * 0  - 7
+GridRight     = [Monitor1Left] + [Monitor1Width] * .4 + 7
+
+[2]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 1
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * .2
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * .8
+GridTop       = [Monitor1Top] + [Monitor1Height] * 0
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 1  + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * .2 - 7
+GridRight     = [Monitor1Left] + [Monitor1Width] * .8 + 7
+
+[3]
+TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0
+TriggerBottom = [Monitor1Top] + [Monitor1Height] * 1
+TriggerLeft   = [Monitor1Left] + [Monitor1Width] * .8
+TriggerRight  = [Monitor1Left] + [Monitor1Width] * 1
+GridTop       = [Monitor1Top] + [Monitor1Height] * 0
+GridBottom    = [Monitor1Top] + [Monitor1Height] * 1  + 7
+GridLeft      = [Monitor1Left] + [Monitor1Width] * .6 - 7
+GridRight     = [Monitor1Left] + [Monitor1Width] * 1  + 7

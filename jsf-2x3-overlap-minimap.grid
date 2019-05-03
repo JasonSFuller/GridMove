@@ -64,40 +64,40 @@ TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 
 TriggerBottom = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 1/2
 TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 0/2
 TriggerRight  = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 1/2
-GridTop       = [Monitor1Top] + [Monitor1Height] * 0/2
-GridBottom    = [Monitor1Top] + [Monitor1Height] * 1/2 + 7
-GridLeft      = [Monitor1Left] + [Monitor1Width] * 0/2 - 7
-GridRight     = [Monitor1Left] + [Monitor1Width] * 1/2 + 7
+GridTop       =  [Monitor1Top] + [Monitor1Height] * 0/2
+GridBottom    =  [Monitor1Top] + [Monitor1Height] * 1/2 + 7
+GridLeft      =  [Monitor1Left] + [Monitor1Width] * 0/2 - 7
+GridRight     =  [Monitor1Left] + [Monitor1Width] * 1/2 + 7
 
 [6]
 TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 1/2
 TriggerBottom = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 2/2
 TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 0/2
 TriggerRight  = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 1/2
-GridTop       = [Monitor1Top] + [Monitor1Height] * 1/2
-GridBottom    = [Monitor1Top] + [Monitor1Height] * 2/2 + 7
-GridLeft      = [Monitor1Left] + [Monitor1Width] * 0/2 - 7
-GridRight     = [Monitor1Left] + [Monitor1Width] * 1/2 + 7
+GridTop       =  [Monitor1Top] + [Monitor1Height] * 1/2
+GridBottom    =  [Monitor1Top] + [Monitor1Height] * 2/2 + 7
+GridLeft      =  [Monitor1Left] + [Monitor1Width] * 0/2 - 7
+GridRight     =  [Monitor1Left] + [Monitor1Width] * 1/2 + 7
 
 [7]
 TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 0/2
 TriggerBottom = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 1/2
 TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 1/2
 TriggerRight  = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 2/2
-GridTop       = [Monitor1Top] + [Monitor1Height] * 0/2
-GridBottom    = [Monitor1Top] + [Monitor1Height] * 1/2 + 7
-GridLeft      = [Monitor1Left] + [Monitor1Width] * 1/2 - 7
-GridRight     = [Monitor1Left] + [Monitor1Width] * 2/2 + 7
+GridTop       =  [Monitor1Top] + [Monitor1Height] * 0/2
+GridBottom    =  [Monitor1Top] + [Monitor1Height] * 1/2 + 7
+GridLeft      =  [Monitor1Left] + [Monitor1Width] * 1/2 - 7
+GridRight     =  [Monitor1Left] + [Monitor1Width] * 2/2 + 7
 
 [8]
 TriggerTop    = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 1/2
 TriggerBottom = [Monitor1Top] + [Monitor1Height] * 0/3 + [Monitor1Height] * .02 + ([Monitor1Height] /3 - [Monitor1Height] * .04) * 2/2
 TriggerLeft   = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 1/2
 TriggerRight  = [Monitor1Left] + [Monitor1Width] * 2/3 + [Monitor1Height] * .02 + ([Monitor1Width]  /3 - [Monitor1Height] * .04) * 2/2
-GridTop       = [Monitor1Top] + [Monitor1Height] * 1/2
-GridBottom    = [Monitor1Top] + [Monitor1Height] * 2/2 + 7
-GridLeft      = [Monitor1Left] + [Monitor1Width] * 1/2 - 7
-GridRight     = [Monitor1Left] + [Monitor1Width] * 2/2 + 7
+GridTop       =  [Monitor1Top] + [Monitor1Height] * 1/2
+GridBottom    =  [Monitor1Top] + [Monitor1Height] * 2/2 + 7
+GridLeft      =  [Monitor1Left] + [Monitor1Width] * 1/2 - 7
+GridRight     =  [Monitor1Left] + [Monitor1Width] * 2/2 + 7
 
 ; subgroup 2 (9x9 grid w/ 2% border)
 
